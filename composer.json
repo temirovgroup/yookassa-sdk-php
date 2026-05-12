@@ -45,12 +45,12 @@
   },
   "autoload": {
     "psr-4": {
-      "YooKassa\\": "lib/"
+      "temirovgroup\\": "lib/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\YooKassa\\": "tests/"
+      "Tests\\temirovgroup\\": "tests/"
     }
   }
 }
