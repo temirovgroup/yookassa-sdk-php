@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa;
+namespace temirovgroup;
 
 use Exception;
 use InvalidArgumentException;

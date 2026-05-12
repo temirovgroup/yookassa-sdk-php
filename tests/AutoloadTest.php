@@ -1,6 +1,6 @@
 <?php
 //
-//namespace YooKassa;
+//namespace temirovgroup;
 //
 //use PHPUnit\Framework\TestCase;
 //
