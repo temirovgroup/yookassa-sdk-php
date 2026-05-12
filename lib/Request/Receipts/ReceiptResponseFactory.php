@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
 
-use YooKassa\Model\ReceiptType;
+use temirovgroup\Model\ReceiptType;
 
 /**
  * Фабричный класс для работы с чеками

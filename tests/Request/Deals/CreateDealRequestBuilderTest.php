@@ -5,11 +5,11 @@ namespace Tests\YooKassa\Request\Deals;
 use Exception;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\SafeDeal;
-use YooKassa\Request\Deals\CreateDealRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\SafeDeal;
+use temirovgroup\Request\Deals\CreateDealRequestBuilder;
 
 class CreateDealRequestBuilderTest extends TestCase
 {

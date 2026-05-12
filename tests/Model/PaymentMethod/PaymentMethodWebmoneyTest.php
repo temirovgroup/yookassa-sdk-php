@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodWebmoney;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethod\PaymentMethodWebmoney;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodWebmoneyTest extends AbstractPaymentMethodTest
 {

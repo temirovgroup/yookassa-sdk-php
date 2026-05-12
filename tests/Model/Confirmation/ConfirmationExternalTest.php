@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\Confirmation;
 
-use YooKassa\Model\Confirmation\ConfirmationExternal;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\Confirmation\ConfirmationExternal;
+use temirovgroup\Model\ConfirmationType;
 
 
 class ConfirmationExternalTest extends AbstractConfirmationTest

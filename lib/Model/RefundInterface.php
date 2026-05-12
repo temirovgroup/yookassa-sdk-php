@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Model\Deal\RefundDealInfo;
+use temirovgroup\Model\Deal\RefundDealInfo;
 
 /**
  * Interface RefundInterface

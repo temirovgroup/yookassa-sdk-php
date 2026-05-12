@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\BadApiRequestException;
+use temirovgroup\Common\Exceptions\BadApiRequestException;
 
 class BadApiRequestExceptionTest extends AbstractApiRequestExceptionTest
 {

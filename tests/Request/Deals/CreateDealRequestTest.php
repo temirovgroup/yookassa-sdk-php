@@ -3,12 +3,12 @@
 namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Metadata;
-use YooKassa\Request\Deals\CreateDealRequest;
-use YooKassa\Request\Deals\CreateDealRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Request\Deals\CreateDealRequest;
+use temirovgroup\Request\Deals\CreateDealRequestBuilder;
 
 class CreateDealRequestTest extends TestCase
 {

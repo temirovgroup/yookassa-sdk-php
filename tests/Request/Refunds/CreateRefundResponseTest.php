@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Request\Refunds;
 
-use YooKassa\Request\Refunds\CreateRefundResponse;
+use temirovgroup\Request\Refunds\CreateRefundResponse;
 
 class CreateRefundResponseTest extends AbstractRefundResponseTest
 {

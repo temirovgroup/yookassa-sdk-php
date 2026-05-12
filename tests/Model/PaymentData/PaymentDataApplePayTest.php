@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataApplePay;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\PaymentDataApplePay;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataApplePayTest extends AbstractPaymentDataApplePayTest
 {

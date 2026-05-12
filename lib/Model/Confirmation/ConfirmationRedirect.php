@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Confirmation;
+namespace temirovgroup\Model\Confirmation;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\ConfirmationType;
 
 /**
  * Сценарий, при котором необходимо отправить плательщика на веб-страницу ЮKassa или партнера для

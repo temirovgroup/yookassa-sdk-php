@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Helpers\TypeCast;
+use temirovgroup\Helpers\StringObject;
+use temirovgroup\Helpers\TypeCast;
 
 class TypeCastTest extends TestCase
 {

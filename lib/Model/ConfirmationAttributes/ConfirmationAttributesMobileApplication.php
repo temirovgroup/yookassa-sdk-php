@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\ConfirmationAttributes;
+namespace temirovgroup\Model\ConfirmationAttributes;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\ConfirmationType;
 
 /**
  * @property string $returnUrl URL на который вернется плательщик после подтверждения или отмены платежа на странице партнера.

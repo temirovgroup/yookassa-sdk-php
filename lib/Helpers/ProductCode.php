@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace temirovgroup\Helpers;
 
 /**
  * Класс для формирования тега 1162 на основе кода в формате Data Matrix

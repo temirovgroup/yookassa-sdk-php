@@ -2,9 +2,9 @@
 
 namespace Tests\YooKassa\Model\Payout;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Payout\PayoutDestinationYooMoney;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Payout\PayoutDestinationYooMoney;
+use temirovgroup\Model\PaymentMethodType;
 
 class PayoutDestinationYooMoneyTest extends AbstractPayoutDestinationTest
 {

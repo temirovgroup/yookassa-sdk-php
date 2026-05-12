@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace temirovgroup\Model\PaymentData;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * Данные используемые для создания метода оплаты.

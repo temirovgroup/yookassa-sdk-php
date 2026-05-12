@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace temirovgroup\Client;
 
 use Psr\Log\LoggerInterface;
-use YooKassa\Common\ResponseObject;
+use temirovgroup\Common\ResponseObject;
 
 /**
  * Interface ApiClientInterface

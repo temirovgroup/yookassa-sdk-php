@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Payout;
+namespace temirovgroup\Model\Payout;
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 /**
  * PayoutCancellationDetailsPartyCode - Возможные инициаторы отмены выплаты

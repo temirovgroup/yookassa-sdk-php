@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 /**
  * Класс с перечислением статусов доставки данных для чека в онлайн-кассу (`pending`, `succeeded` или `canceled`)

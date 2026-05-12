@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace temirovgroup\Common\Exceptions;
 
 /**
  * Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции.

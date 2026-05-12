@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace temirovgroup\Request\Payments;
 
 use Exception;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Model\PaymentInterface;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Model\PaymentInterface;
 
 /**
  * Класс объекта ответа от API со списком платежей магазина

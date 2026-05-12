@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
 use DateTime;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
-use YooKassa\Model\Deal\PayoutDealInfo;
+use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use temirovgroup\Model\Payout\PayoutCancellationDetails;
+use temirovgroup\Model\Deal\PayoutDealInfo;
 
 /**
  * Interface DealInterface

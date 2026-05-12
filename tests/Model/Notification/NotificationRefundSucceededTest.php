@@ -3,14 +3,14 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationRefundSucceeded;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundInterface;
-use YooKassa\Model\RefundStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Notification\NotificationRefundSucceeded;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\RefundInterface;
+use temirovgroup\Model\RefundStatus;
 
 class NotificationRefundSucceededTest extends AbstractNotificationTest
 {

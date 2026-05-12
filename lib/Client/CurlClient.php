@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace temirovgroup\Client;
 
 use Psr\Log\LoggerInterface;
-use YooKassa\Common\Exceptions\ApiConnectionException;
-use YooKassa\Common\Exceptions\ApiException;
-use YooKassa\Common\Exceptions\AuthorizeException;
-use YooKassa\Common\Exceptions\ExtensionNotFoundException;
-use YooKassa\Common\ResponseObject;
-use YooKassa\Helpers\RawHeadersParser;
+use temirovgroup\Common\Exceptions\ApiConnectionException;
+use temirovgroup\Common\Exceptions\ApiException;
+use temirovgroup\Common\Exceptions\AuthorizeException;
+use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
+use temirovgroup\Common\ResponseObject;
+use temirovgroup\Helpers\RawHeadersParser;
 
 /**
  * Класс клиента Curl запросов

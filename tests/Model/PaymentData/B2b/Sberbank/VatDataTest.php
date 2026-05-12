@@ -3,12 +3,12 @@
 namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatData;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataType;
 
 class VatDataTest extends TestCase
 {

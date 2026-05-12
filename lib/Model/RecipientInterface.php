@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
 /**
  * Интерфейс получателя платежа.

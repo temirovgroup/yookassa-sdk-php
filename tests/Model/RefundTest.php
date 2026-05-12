@@ -3,18 +3,18 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\RefundDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\Refund;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Model\Source;
-use YooKassa\Request\Refunds\CreateRefundRequest;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Helpers\StringObject;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\RefundDealInfo;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\Refund;
+use temirovgroup\Model\RefundStatus;
+use temirovgroup\Model\Source;
+use temirovgroup\Request\Refunds\CreateRefundRequest;
 
 class RefundTest extends TestCase
 {

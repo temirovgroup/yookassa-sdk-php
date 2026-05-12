@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace temirovgroup\Helpers;
 
 /**
  * Класс хэлпера для генерации случайных значений, используется в тестах

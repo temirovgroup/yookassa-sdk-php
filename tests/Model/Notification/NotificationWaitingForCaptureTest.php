@@ -2,16 +2,16 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationWaitingForCapture;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\PaymentStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Notification\NotificationWaitingForCapture;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\PaymentInterface;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\PaymentStatus;
 
 class NotificationWaitingForCaptureTest extends AbstractNotificationTest
 {

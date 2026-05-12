@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodMobileBalance;
+use temirovgroup\Model\PaymentMethod\PaymentMethodMobileBalance;
 
 abstract class AbstractPaymentMethodPhoneTest extends AbstractPaymentMethodTest
 {

@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\InvalidPropertyException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Common\Exceptions\InvalidPropertyException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
 
 class InvalidPropertyValueTypeExceptionTest extends InvalidPropertyExceptionTest
 {

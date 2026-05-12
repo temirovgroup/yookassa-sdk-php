@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\ConfirmationAttributes;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
 
 abstract class AbstractConfirmationAttributesTest extends TestCase
 {

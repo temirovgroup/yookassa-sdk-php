@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidRequestException;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\PaymentsRequest;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\Exceptions\InvalidRequestException;
+use temirovgroup\Request\Payments\CreatePaymentRequest;
+use temirovgroup\Request\Payments\PaymentsRequest;
 
 class InvalidRequestExceptionTest extends TestCase
 {

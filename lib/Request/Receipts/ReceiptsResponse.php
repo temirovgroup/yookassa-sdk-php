@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
 /**
  * Класс для работы со списком чеков

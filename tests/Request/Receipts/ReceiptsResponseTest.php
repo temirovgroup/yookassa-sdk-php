@@ -1,13 +1,13 @@
 <?php
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\UUID;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Helpers\UUID;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptType;
 
 class ReceiptsResponseTest extends TestCase
 {

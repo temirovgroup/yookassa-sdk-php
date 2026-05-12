@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Refund;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Refund;
 
 /**
  * Абстрактный класс ответа от API с информацией о возврате

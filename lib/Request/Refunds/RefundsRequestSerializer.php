@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка возвратов

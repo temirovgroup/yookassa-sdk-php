@@ -3,13 +3,13 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\SettlementPayoutPayment;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
-use YooKassa\Model\MonetaryAmount;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\SettlementPayoutPayment;
+use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
+use temirovgroup\Model\MonetaryAmount;
 
 class SettlementPayoutPaymentTest extends TestCase
 {

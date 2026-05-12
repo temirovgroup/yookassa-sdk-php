@@ -2,16 +2,16 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatData;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataType;
-use YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
-use YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataType;
+use temirovgroup\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use temirovgroup\Model\PaymentMethod\PaymentMethodB2bSberbank;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodB2bSberbankTest extends TestCase
 {

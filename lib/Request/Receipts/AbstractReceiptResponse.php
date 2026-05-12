@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
 use DateTime;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\Settlement;
-use YooKassa\Model\SettlementInterface;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Model\Settlement;
+use temirovgroup\Model\SettlementInterface;
 
 /**
  * Class AbstractReceipt

@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Request\Payouts;
 
-use YooKassa\Request\Payouts\PayoutResponse;
+use temirovgroup\Request\Payouts\PayoutResponse;
 
 class PayoutResponseTest extends AbstractPayoutResponseTest
 {

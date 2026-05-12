@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
-use YooKassa\Common\AbstractRefundRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\Source;
-use YooKassa\Model\SourceInterface;
+use temirovgroup\Common\AbstractRefundRequest;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\RefundDealData;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\Source;
+use temirovgroup\Model\SourceInterface;
 
 /**
  * Класс объекта запроса для создания возврата

@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
 
 /**
  * Interface PaymentInterface

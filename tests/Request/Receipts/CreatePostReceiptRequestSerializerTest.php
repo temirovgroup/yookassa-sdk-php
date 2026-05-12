@@ -3,14 +3,14 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
-use YooKassa\Request\Receipts\CreatePostReceiptRequestSerializer;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Receipt\PaymentMode;
+use temirovgroup\Model\Receipt\PaymentSubject;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Request\Receipts\CreatePostReceiptRequest;
+use temirovgroup\Request\Receipts\CreatePostReceiptRequestSerializer;
 
 class CreatePostReceiptRequestSerializerTest extends TestCase
 {

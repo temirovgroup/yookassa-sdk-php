@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\StringObject;
+use temirovgroup\Helpers\StringObject;
 
 class StringObjectTest extends TestCase
 {

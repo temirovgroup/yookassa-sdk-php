@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\ResponseProcessingException;
+use temirovgroup\Common\Exceptions\ResponseProcessingException;
 
 class ResponseProcessingExceptionTest extends ApiExceptionTest
 {

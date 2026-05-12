@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\SupplierInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\SupplierInterface;
 
 /**
  * Interface ReceiptItemInterface

@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Notification\AbstractNotification;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Notification\AbstractNotification;
 
 abstract class AbstractNotificationTest extends TestCase
 {

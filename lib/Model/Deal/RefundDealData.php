@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Deal;
+namespace temirovgroup\Model\Deal;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\SettlementInterface;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Model\SettlementInterface;
 
 /**
  * Class PaymentDealInfo

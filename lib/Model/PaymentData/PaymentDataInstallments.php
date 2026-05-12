@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace temirovgroup\Model\PaymentData;
 
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * Данные для проведения оплаты по частям

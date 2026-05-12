@@ -4,12 +4,12 @@
 namespace Tests\YooKassa\Model;
 
 
-use YooKassa\Model\Airline;
+use temirovgroup\Model\Airline;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\Leg;
-use YooKassa\Model\LegInterface;
-use YooKassa\Model\Passenger;
-use YooKassa\Model\PassengerInterface;
+use temirovgroup\Model\Leg;
+use temirovgroup\Model\LegInterface;
+use temirovgroup\Model\Passenger;
+use temirovgroup\Model\PassengerInterface;
 
 class AirlineTest extends TestCase
 {

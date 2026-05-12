@@ -24,19 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidRequestException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptCustomerInterface;
-use YooKassa\Model\ReceiptItemInterface;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\SettlementInterface;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\AbstractRequestBuilder;
+use temirovgroup\Common\Exceptions\InvalidRequestException;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\ReceiptCustomer;
+use temirovgroup\Model\ReceiptCustomerInterface;
+use temirovgroup\Model\ReceiptItemInterface;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Model\SettlementInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание чека

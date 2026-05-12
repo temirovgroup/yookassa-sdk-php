@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\AbstractRequestBuilder;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
 
 /**
  * Класс билдера объектов запросов к API списка возвратов

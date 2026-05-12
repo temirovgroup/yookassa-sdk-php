@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace temirovgroup\Request\Payments;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\AbstractPaymentRequestBuilder;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Common\Exceptions\InvalidRequestException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Airline;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataFactory;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\RecipientInterface;
+use temirovgroup\Common\AbstractPaymentRequest;
+use temirovgroup\Common\AbstractPaymentRequestBuilder;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Common\Exceptions\InvalidRequestException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\Airline;
+use temirovgroup\Model\AirlineInterface;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\PaymentData\PaymentDataFactory;
+use temirovgroup\Model\Recipient;
+use temirovgroup\Model\RecipientInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

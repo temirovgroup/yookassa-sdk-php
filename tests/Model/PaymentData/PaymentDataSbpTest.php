@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataSbp;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\PaymentDataSbp;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataSbpTest extends AbstractPaymentDataTest
 {

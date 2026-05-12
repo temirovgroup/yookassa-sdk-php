@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Payout;
+namespace temirovgroup\Model\Payout;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * PaymentDataBankCard

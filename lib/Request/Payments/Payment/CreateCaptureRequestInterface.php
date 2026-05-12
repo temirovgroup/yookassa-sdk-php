@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace temirovgroup\Request\Payments\Payment;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\TransferInterface;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\TransferInterface;
 
 /**
  * Interface CreateCaptureRequestInterface

@@ -3,11 +3,11 @@
 namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\SafeDeal;
-use YooKassa\Request\Deals\DealsRequest;
-use YooKassa\Request\Deals\DealsRequestSerializer;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\DealStatus;
+use temirovgroup\Model\SafeDeal;
+use temirovgroup\Request\Deals\DealsRequest;
+use temirovgroup\Request\Deals\DealsRequestSerializer;
 
 class DealsRequestSerializerTest extends TestCase
 {

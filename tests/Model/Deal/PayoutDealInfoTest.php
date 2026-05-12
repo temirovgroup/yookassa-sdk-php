@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\PayoutDealInfo;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\PayoutDealInfo;
 
 class PayoutDealInfoTest extends TestCase
 {

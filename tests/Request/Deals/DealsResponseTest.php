@@ -3,13 +3,13 @@
 namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Request\Deals\DealsResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\DealInterface;
+use temirovgroup\Model\Deal\DealStatus;
+use temirovgroup\Request\Deals\DealsResponse;
 
 class DealsResponseTest extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
 /**
  * Interface RequestorInterface

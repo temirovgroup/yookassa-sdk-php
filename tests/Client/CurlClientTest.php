@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Client;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Client\CurlClient;
-use YooKassa\Common\HttpVerb;
+use temirovgroup\Client\CurlClient;
+use temirovgroup\Common\HttpVerb;
 
 class CurlClientTest extends TestCase
 {

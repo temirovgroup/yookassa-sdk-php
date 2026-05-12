@@ -3,11 +3,11 @@
 namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataBankCardCard;
-use YooKassa\Model\PaymentData\PaymentDataFactory;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\PaymentData\PaymentDataBankCardCard;
+use temirovgroup\Model\PaymentData\PaymentDataFactory;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataFactoryTest extends TestCase
 {

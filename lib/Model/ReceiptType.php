@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 /**
  * ReceiptType - Тип чека в онлайн-кассе.

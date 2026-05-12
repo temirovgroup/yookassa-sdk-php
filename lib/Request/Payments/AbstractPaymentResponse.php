@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace temirovgroup\Request\Payments;
 
 use InvalidArgumentException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\AuthorizationDetails;
-use YooKassa\Model\CancellationDetails;
-use YooKassa\Model\Confirmation\ConfirmationCodeVerification;
-use YooKassa\Model\Confirmation\ConfirmationEmbedded;
-use YooKassa\Model\Confirmation\ConfirmationMobileApplication;
-use YooKassa\Model\Confirmation\ConfirmationQr;
-use YooKassa\Model\Confirmation\ConfirmationRedirect;
-use YooKassa\Model\Confirmation\ConfirmationExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\PaymentMethod\PaymentMethodFactory;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\Transfer;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\AuthorizationDetails;
+use temirovgroup\Model\CancellationDetails;
+use temirovgroup\Model\Confirmation\ConfirmationCodeVerification;
+use temirovgroup\Model\Confirmation\ConfirmationEmbedded;
+use temirovgroup\Model\Confirmation\ConfirmationMobileApplication;
+use temirovgroup\Model\Confirmation\ConfirmationQr;
+use temirovgroup\Model\Confirmation\ConfirmationRedirect;
+use temirovgroup\Model\Confirmation\ConfirmationExternal;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentInterface;
+use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use temirovgroup\Model\PaymentMethod\PaymentMethodFactory;
+use temirovgroup\Model\Recipient;
+use temirovgroup\Model\Transfer;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже

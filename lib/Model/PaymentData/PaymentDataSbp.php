@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace temirovgroup\Model\PaymentData;
 
 
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataSbp extends AbstractPaymentData
 {

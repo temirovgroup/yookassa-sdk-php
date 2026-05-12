@@ -2,13 +2,13 @@
 
 namespace Tests\YooKassa\Request\Receipts;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\SettlementInterface;
-use YooKassa\Request\Receipts\PaymentReceiptResponse;
-use YooKassa\Request\Receipts\ReceiptResponseItemInterface;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Airline;
+use temirovgroup\Model\SettlementInterface;
+use temirovgroup\Request\Receipts\PaymentReceiptResponse;
+use temirovgroup\Request\Receipts\ReceiptResponseItemInterface;
 
 class PaymentReceiptResponseTest extends AbstractReceiptResponseTest
 {

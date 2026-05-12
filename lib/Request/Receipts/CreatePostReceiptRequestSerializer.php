@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\Settlement;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Model\Settlement;
 
 /**
  * Класс сериалайзера объекта запроса к API создание чека

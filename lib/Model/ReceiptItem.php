@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Receipt\AgentType;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\ProductCode;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\Receipt\AgentType;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
 
 /**
  * Информация о товарной позиции в заказе, позиция фискального чека

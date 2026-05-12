@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod\B2b\Sberbank;
+namespace temirovgroup\Model\PaymentMethod\B2b\Sberbank;
 
 /**
  * Interface PayerBankDetailsInterface

@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace temirovgroup\Request\Payments\Payment;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\CaptureDealData;
-use YooKassa\Model\ReceiptInterface;
+use temirovgroup\Common\AbstractPaymentRequest;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\CaptureDealData;
+use temirovgroup\Model\ReceiptInterface;
 
 /**
  * Класс объекта запроса к API на подтверждение оплаты

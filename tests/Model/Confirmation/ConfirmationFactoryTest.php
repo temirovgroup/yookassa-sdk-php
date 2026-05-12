@@ -3,10 +3,10 @@
 namespace Model\Confirmation;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Confirmation\AbstractConfirmation;
-use YooKassa\Model\Confirmation\ConfirmationFactory;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Confirmation\AbstractConfirmation;
+use temirovgroup\Model\Confirmation\ConfirmationFactory;
+use temirovgroup\Model\ConfirmationType;
 
 class ConfirmationFactoryTest extends TestCase
 {

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
 /**
  * Класс HTTP ответа

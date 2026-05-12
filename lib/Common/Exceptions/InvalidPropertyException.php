@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace temirovgroup\Common\Exceptions;
 
 class InvalidPropertyException extends \InvalidArgumentException
 {

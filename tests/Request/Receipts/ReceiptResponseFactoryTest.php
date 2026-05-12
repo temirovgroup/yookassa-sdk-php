@@ -2,9 +2,9 @@
 
 namespace Tests\YooKassa\Request\Receipts;
 
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Request\Receipts\ReceiptResponseFactory;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Request\Receipts\ReceiptResponseFactory;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptResponseFactoryTest extends TestCase

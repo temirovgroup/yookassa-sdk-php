@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace temirovgroup\Model\Notification;
 
-use YooKassa\Model\Notification\AbstractNotification;
-use YooKassa\Model\NotificationEventType;
+use temirovgroup\Model\Notification\AbstractNotification;
+use temirovgroup\Model\NotificationEventType;
 
 /**
  * Фабрика для получения конкретного объекта уведомления.

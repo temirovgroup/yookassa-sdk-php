@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace temirovgroup\Common\Exceptions;
 
 /**
  * Запрос был принят на обработку, но она не завершена.

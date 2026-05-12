@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptInterface;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\ReceiptInterface;
 
 /**
  * Класс объекта запроса к API

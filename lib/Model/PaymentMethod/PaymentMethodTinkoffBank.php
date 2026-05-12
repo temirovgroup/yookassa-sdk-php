@@ -22,10 +22,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace YooKassa\Model\PaymentMethod;
+namespace temirovgroup\Model\PaymentMethod;
 
 
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через Tinkoff

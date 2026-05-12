@@ -3,20 +3,20 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CancellationDetails;
-use YooKassa\Model\CancellationDetailsPartyCode;
-use YooKassa\Model\CancellationDetailsReasonCode;
-use YooKassa\Model\Confirmation\ConfirmationRedirect;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentMethod\PaymentMethodQiwi;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\Requestor;
-use YooKassa\Model\Transfer;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CancellationDetails;
+use temirovgroup\Model\CancellationDetailsPartyCode;
+use temirovgroup\Model\CancellationDetailsReasonCode;
+use temirovgroup\Model\Confirmation\ConfirmationRedirect;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentMethod\PaymentMethodQiwi;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\Recipient;
+use temirovgroup\Model\Requestor;
+use temirovgroup\Model\Transfer;
 
 class PaymentTest extends TestCase
 {

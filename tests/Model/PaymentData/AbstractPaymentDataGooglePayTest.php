@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\PaymentDataGooglePay;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentData\PaymentDataGooglePay;
 
 abstract class AbstractPaymentDataGooglePayTest extends AbstractPaymentDataTest
 {

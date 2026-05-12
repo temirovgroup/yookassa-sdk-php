@@ -3,25 +3,25 @@
 namespace Tests\YooKassa\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\Settlement;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Airline;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\PaymentData\PaymentDataQiwi;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\Receipt\PaymentMode;
+use temirovgroup\Model\Receipt\PaymentSubject;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptCustomer;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Model\Settlement;
+use temirovgroup\Request\Payments\CreatePaymentRequest;
+use temirovgroup\Request\Payments\CreatePaymentRequestBuilder;
+use temirovgroup\Request\Receipts\CreatePostReceiptRequest;
 
 class CreatePostReceiptRequestTest extends TestCase
 {

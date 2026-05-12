@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\Supplier;
-use YooKassa\Model\SupplierInterface;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Model\Supplier;
+use temirovgroup\Model\SupplierInterface;
 
 /**
  * Класс, описывающий товар в чеке

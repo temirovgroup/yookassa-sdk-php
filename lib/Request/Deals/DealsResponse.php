@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
 use Exception;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Model\DealInterface;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Model\DealInterface;
 
 /**
  * Класс объекта ответа от API со списком сделок магазина

@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Deal\SettlementPayoutPayment;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\Deal\SettlementPayoutPayment;
+use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
 
 class PaymentDealInfoTest extends TestCase
 {

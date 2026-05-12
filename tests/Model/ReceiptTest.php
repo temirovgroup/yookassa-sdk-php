@@ -3,16 +3,16 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Settlement;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptCustomer;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\Settlement;
 
 class ReceiptTest extends TestCase
 {

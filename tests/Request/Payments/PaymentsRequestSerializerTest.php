@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Request\Payments\PaymentsRequest;
-use YooKassa\Request\Payments\PaymentsRequestSerializer;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Request\Payments\PaymentsRequest;
+use temirovgroup\Request\Payments\PaymentsRequestSerializer;
 
 class PaymentsRequestSerializerTest extends TestCase
 {

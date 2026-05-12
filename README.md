@@ -55,7 +55,7 @@ require __DIR__ . '/lib/autoload.php';
 
 1. Импортируйте нужные классы
 ```php
-use YooKassa\Client;
+use temirovgroup\Client;
 ```
 2. Создайте экземпляр объекта клиента, задайте идентификатор магазина и секретный ключ (их можно получить в личном кабинете ЮKassa). [Как выпустить секретный ключ](https://yookassa.ru/docs/support/merchant/payments/implement/keys)
 ```php

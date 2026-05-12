@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\ConfirmationAttributes;
+namespace temirovgroup\Model\ConfirmationAttributes;
 
 
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\ConfirmationType;
 
 class ConfirmationAttributesQr extends AbstractConfirmationAttributes
 {

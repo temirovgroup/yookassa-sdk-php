@@ -24,25 +24,25 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace temirovgroup\Request\Payments;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\LegInterface;
-use YooKassa\Model\PassengerInterface;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataAlfabank;
-use YooKassa\Model\PaymentData\PaymentDataB2bSberbank;
-use YooKassa\Model\PaymentData\PaymentDataBankCard;
-use YooKassa\Model\PaymentData\PaymentDataGooglePay;
-use YooKassa\Model\PaymentData\PaymentDataSberbank;
-use YooKassa\Model\PaymentData\PaymentDataYooMoney;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\TransferInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\LegInterface;
+use temirovgroup\Model\PassengerInterface;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\PaymentData\PaymentDataAlfabank;
+use temirovgroup\Model\PaymentData\PaymentDataB2bSberbank;
+use temirovgroup\Model\PaymentData\PaymentDataBankCard;
+use temirovgroup\Model\PaymentData\PaymentDataGooglePay;
+use temirovgroup\Model\PaymentData\PaymentDataSberbank;
+use temirovgroup\Model\PaymentData\PaymentDataYooMoney;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\TransferInterface;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение платежа

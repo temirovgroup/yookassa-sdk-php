@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData\B2b\Sberbank;
+namespace temirovgroup\Model\PaymentData\B2b\Sberbank;
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 /**
  * PaymentDataB2bSberbankVatDataType - Способ расчёта НДС

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace temirovgroup\Common\Exceptions;
 
 /**
  * Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов.

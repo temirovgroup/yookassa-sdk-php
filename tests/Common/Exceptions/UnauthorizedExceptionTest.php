@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\UnauthorizedException;
+use temirovgroup\Common\Exceptions\UnauthorizedException;
 
 class UnauthorizedExceptionTest extends AbstractApiRequestExceptionTest
 {

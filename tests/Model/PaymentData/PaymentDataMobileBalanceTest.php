@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataMobileBalance;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\PaymentDataMobileBalance;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataMobileBalanceTest extends AbstractPaymentDataPhoneTest
 {

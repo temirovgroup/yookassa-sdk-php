@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\SafeDeal;
+use temirovgroup\Model\DealInterface;
+use temirovgroup\Model\SafeDeal;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже

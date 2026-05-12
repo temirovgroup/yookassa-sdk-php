@@ -1,8 +1,8 @@
 <?php
 
-namespace YooKassa\Model\Deal;
+namespace temirovgroup\Model\Deal;
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 /**
  * Class FeeMoment

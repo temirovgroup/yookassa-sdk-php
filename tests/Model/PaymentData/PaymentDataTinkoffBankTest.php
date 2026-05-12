@@ -4,9 +4,9 @@
 namespace Tests\YooKassa\Model\PaymentData;
 
 
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataTinkoffBank;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\PaymentData\PaymentDataTinkoffBank;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataTinkoffBankTest extends AbstractPaymentDataTest
 {

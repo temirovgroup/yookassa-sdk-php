@@ -2,12 +2,12 @@
 
 namespace Tests\YooKassa\Client;
 
-use YooKassa\Client\ApiClientInterface;
-use YooKassa\Client\BaseClient;
+use temirovgroup\Client\ApiClientInterface;
+use temirovgroup\Client\BaseClient;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Client\CurlClient;
-use YooKassa\Helpers\Config\ConfigurationLoader;
-use YooKassa\Helpers\Random;
+use temirovgroup\Client\CurlClient;
+use temirovgroup\Helpers\Config\ConfigurationLoader;
+use temirovgroup\Helpers\Random;
 
 class BaseClientTest extends TestCase
 {

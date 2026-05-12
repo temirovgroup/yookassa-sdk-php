@@ -2,15 +2,15 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Notification\NotificationDealClosed;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\DealInterface;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\DealStatus;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\Notification\NotificationDealClosed;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\DealInterface;
 
 class NotificationDealClosedTest extends AbstractNotificationTest
 {

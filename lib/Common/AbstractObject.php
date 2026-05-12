@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
 if (!defined('YOOKASSA_DATE')) {
     if (version_compare(PHP_VERSION, '7.0') >= 0) {

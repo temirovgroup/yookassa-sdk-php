@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
 /**
  * Interface DealsRequestInterface

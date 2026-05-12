@@ -2,9 +2,9 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethod\PaymentMethodAlfaBank;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentMethod\PaymentMethodAlfaBank;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodAlfaBankTest extends AbstractPaymentMethodTest
 {

@@ -3,9 +3,9 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\Recipient;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Helpers\StringObject;
+use temirovgroup\Model\Recipient;
 
 class RecipientTest extends TestCase
 {

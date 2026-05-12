@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Model;
 
-use YooKassa\Model\ThreeDSecure;
+use temirovgroup\Model\ThreeDSecure;
 
 class ThreeDSecureTest extends \PHPUnit_Framework_TestCase
 {

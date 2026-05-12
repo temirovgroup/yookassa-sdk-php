@@ -24,19 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
 use DateTime;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
-use YooKassa\Model\Payout\PayoutDestinationFactory;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\Deal\PayoutDealInfo;
+use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Model\Payout\PayoutCancellationDetails;
+use temirovgroup\Model\Payout\PayoutDestinationFactory;
 
 /**
  * Payout - Данные о выплате

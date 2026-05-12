@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace temirovgroup\Model\PaymentMethod;
 
 
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * @deprecated Класс будет удалён в одной из будущих версий.

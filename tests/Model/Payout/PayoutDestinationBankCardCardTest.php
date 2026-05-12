@@ -3,9 +3,9 @@
 namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout\PayoutDestinationBankCardCard;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Payout\PayoutDestinationBankCardCard;
 
 class PayoutDestinationBankCardCardTest extends TestCase
 {

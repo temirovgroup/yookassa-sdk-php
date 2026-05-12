@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace temirovgroup\Model;
 
-use YooKassa\Common\AbstractObject;
+use temirovgroup\Common\AbstractObject;
 
 /**
  * Metadata - Метаданные платежа указанные мерчантом.

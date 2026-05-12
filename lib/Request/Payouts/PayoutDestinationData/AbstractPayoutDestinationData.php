@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts\PayoutDestinationData;
+namespace temirovgroup\Request\Payouts\PayoutDestinationData;
 
-use YooKassa\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Данные используемые для создания метода оплаты.

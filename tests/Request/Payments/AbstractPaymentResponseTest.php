@@ -3,17 +3,17 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\Transfer;
-use YooKassa\Model\TransferStatus;
-use YooKassa\Request\Payments\PaymentResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\Transfer;
+use temirovgroup\Model\TransferStatus;
+use temirovgroup\Request\Payments\PaymentResponse;
 
 abstract class AbstractPaymentResponseTest extends TestCase
 {

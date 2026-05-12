@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\AbstractRequest;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\AbstractRequest;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка платежей

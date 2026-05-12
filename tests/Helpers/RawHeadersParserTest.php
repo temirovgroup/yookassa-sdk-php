@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\RawHeadersParser;
+use temirovgroup\Helpers\RawHeadersParser;
 
 class RawHeadersParserTest extends TestCase
 {

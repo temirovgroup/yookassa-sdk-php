@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodGooglePay;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentMethod\PaymentMethodGooglePay;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodGooglePayTest extends AbstractPaymentMethodTest
 {

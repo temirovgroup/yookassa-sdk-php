@@ -3,23 +3,23 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Locale;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\Transfer;
-use YooKassa\Model\TransferStatus;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\Locale;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentData\PaymentDataQiwi;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\Recipient;
+use temirovgroup\Model\Transfer;
+use temirovgroup\Model\TransferStatus;
+use temirovgroup\Request\Payments\CreatePaymentRequest;
+use temirovgroup\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
+use temirovgroup\Helpers\Random;
 
 class RandomTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Request\Payments\Payment;
 
 use Tests\YooKassa\Request\Payments\AbstractPaymentResponseTest;
-use YooKassa\Request\Payments\Payment\CancelResponse;
+use temirovgroup\Request\Payments\Payment\CancelResponse;
 
 class CancelResponseTest extends AbstractPaymentResponseTest
 {

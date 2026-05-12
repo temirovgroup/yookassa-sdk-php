@@ -23,9 +23,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Webhook;
+namespace temirovgroup\Request\Webhook;
 
-use YooKassa\Model\Webhook\Webhook;
+use temirovgroup\Model\Webhook\Webhook;
 
 /**
  * Актуальный список объектов webhook для переданного OAuth-токена

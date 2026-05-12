@@ -3,9 +3,9 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Request\Payments\PaymentsRequestBuilder;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Request\Payments\PaymentsRequestBuilder;
 
 class PaymentsRequestBuilderTest extends TestCase
 {

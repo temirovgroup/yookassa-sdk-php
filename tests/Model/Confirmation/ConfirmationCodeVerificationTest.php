@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\Confirmation;
 
-use YooKassa\Model\Confirmation\ConfirmationCodeVerification;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\Confirmation\ConfirmationCodeVerification;
+use temirovgroup\Model\ConfirmationType;
 
 class ConfirmationCodeVerificationTest extends AbstractConfirmationTest
 {

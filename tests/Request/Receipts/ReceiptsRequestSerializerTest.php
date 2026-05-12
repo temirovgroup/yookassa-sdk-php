@@ -2,12 +2,12 @@
 
 namespace Tests\YooKassa\Request\Receipts;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Receipts\ReceiptsRequest;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\RefundStatus;
+use temirovgroup\Request\Receipts\ReceiptsRequest;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Request\Receipts\ReceiptsRequestSerializer;
+use temirovgroup\Request\Receipts\ReceiptsRequestSerializer;
 
 class ReceiptsRequestSerializerTest extends TestCase
 {

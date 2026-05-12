@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
 use DateTime;
 use Exception;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\AbstractRequestBuilder;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
 
 /**
  * Класс билдера запросов к API для получения списка сделок магазина

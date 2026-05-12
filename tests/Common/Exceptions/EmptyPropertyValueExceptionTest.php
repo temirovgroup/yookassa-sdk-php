@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
 
 class EmptyPropertyValueExceptionTest extends InvalidPropertyExceptionTest
 {

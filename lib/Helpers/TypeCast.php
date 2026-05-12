@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace temirovgroup\Helpers;
 
 use DateTime;
 use Exception;

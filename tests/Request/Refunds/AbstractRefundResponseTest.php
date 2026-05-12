@@ -3,16 +3,16 @@
 namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\RefundDealInfo;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Model\Source;
-use YooKassa\Request\Refunds\AbstractRefundResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\RefundDealInfo;
+use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\RefundStatus;
+use temirovgroup\Model\Source;
+use temirovgroup\Request\Refunds\AbstractRefundResponse;
 
 abstract class AbstractRefundResponseTest extends TestCase
 {

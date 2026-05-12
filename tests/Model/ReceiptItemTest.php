@@ -3,17 +3,17 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Receipt\AgentType;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Supplier;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Helpers\StringObject;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Receipt\AgentType;
+use temirovgroup\Model\Receipt\PaymentMode;
+use temirovgroup\Model\Receipt\PaymentSubject;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\Supplier;
 
 class ReceiptItemTest extends TestCase
 {

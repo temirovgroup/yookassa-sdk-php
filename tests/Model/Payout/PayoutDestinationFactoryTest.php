@@ -3,11 +3,11 @@
 namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Model\Payout\PayoutDestinationFactory;
-use YooKassa\Model\Payout\PayoutDestinationType;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Model\Payout\PayoutDestinationFactory;
+use temirovgroup\Model\Payout\PayoutDestinationType;
+use temirovgroup\Model\PaymentMethodType;
 
 class PayoutDestinationFactoryTest extends TestCase
 {

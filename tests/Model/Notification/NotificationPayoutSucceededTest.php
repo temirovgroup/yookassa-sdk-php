@@ -2,14 +2,14 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Notification\NotificationPayoutSucceeded;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PayoutInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\PayoutStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Notification\NotificationPayoutSucceeded;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\PayoutInterface;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\PayoutStatus;
 
 class NotificationPayoutSucceededTest extends AbstractNotificationTest
 {

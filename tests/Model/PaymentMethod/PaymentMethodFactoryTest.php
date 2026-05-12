@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Model\PaymentMethodTest;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\PaymentMethod\PaymentMethodFactory;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use temirovgroup\Model\PaymentMethod\PaymentMethodFactory;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodFactoryTest extends TestCase
 {

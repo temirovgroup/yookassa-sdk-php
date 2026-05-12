@@ -2,9 +2,9 @@
 
 namespace Tests\YooKassa\Model;
 
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Supplier;
+use temirovgroup\Helpers\ProductCode;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Supplier;
 use PHPUnit\Framework\TestCase;
 
 class SupplierTest extends TestCase

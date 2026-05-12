@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Request\Payments;
 
-use YooKassa\Request\Payments\PaymentResponse;
+use temirovgroup\Request\Payments\PaymentResponse;
 
 class PaymentResponseTest extends AbstractPaymentResponseTest
 {

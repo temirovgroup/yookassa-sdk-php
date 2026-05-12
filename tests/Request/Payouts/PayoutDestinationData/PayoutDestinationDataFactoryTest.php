@@ -3,12 +3,12 @@
 namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Payout\PayoutDestinationType;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Payout\PayoutDestinationType;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
+use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 class PayoutDestinationDataFactoryTest extends TestCase
 {

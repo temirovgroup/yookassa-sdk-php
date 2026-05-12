@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace temirovgroup\Request\Payouts;
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\PayoutDealInfo;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 /**
  * Класс объекта запроса к API на проведение новой выплаты

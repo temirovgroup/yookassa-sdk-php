@@ -4,7 +4,7 @@ namespace Tests\YooKassa\Helpers;
 
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\UUID;
+use temirovgroup\Helpers\UUID;
 
 class UUIDTest extends TestCase
 {

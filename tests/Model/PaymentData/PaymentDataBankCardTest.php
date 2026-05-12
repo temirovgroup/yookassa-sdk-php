@@ -2,10 +2,10 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\PaymentDataBankCard;
-use YooKassa\Model\PaymentData\PaymentDataBankCardCard;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentData\PaymentDataBankCard;
+use temirovgroup\Model\PaymentData\PaymentDataBankCardCard;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataBankCardTest extends AbstractPaymentDataTest
 {

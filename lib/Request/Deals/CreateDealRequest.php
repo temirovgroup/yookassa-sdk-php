@@ -24,24 +24,24 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\RecipientInterface;
-use YooKassa\Model\SafeDeal;
+use temirovgroup\Common\AbstractPaymentRequest;
+use temirovgroup\Common\AbstractRequest;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AirlineInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\RecipientInterface;
+use temirovgroup\Model\SafeDeal;
 
 /**
  * Класс объекта запроса к API на проведение новой сделки

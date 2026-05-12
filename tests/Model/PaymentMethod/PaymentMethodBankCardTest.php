@@ -2,11 +2,11 @@
 
 namespace Tests\YooKassa\Model\PaymentMethod;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\PaymentMethod\BankCardSource;
-use YooKassa\Model\PaymentMethod\PaymentMethodBankCard;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Helpers\StringObject;
+use temirovgroup\Model\PaymentMethod\BankCardSource;
+use temirovgroup\Model\PaymentMethod\PaymentMethodBankCard;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 {

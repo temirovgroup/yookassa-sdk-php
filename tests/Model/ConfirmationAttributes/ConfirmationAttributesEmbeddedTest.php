@@ -4,9 +4,9 @@ namespace Model\ConfirmationAttributes;
 
 
 use Tests\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributesTest;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded;
+use temirovgroup\Model\ConfirmationType;
 
 class ConfirmationAttributesEmbeddedTest extends AbstractConfirmationAttributesTest
 {

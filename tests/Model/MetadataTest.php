@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\Metadata;
+use temirovgroup\Model\Metadata;
 
 class MetadataTest extends TestCase
 {

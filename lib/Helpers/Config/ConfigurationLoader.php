@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers\Config;
+namespace temirovgroup\Helpers\Config;
 
 class ConfigurationLoader implements ConfigurationLoaderInterface
 {

@@ -2,16 +2,16 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Notification\NotificationPayoutCanceled;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PayoutInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\PayoutStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Notification\NotificationPayoutCanceled;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\PayoutInterface;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
+use temirovgroup\Model\PayoutStatus;
 
 class NotificationPayoutCanceledTest extends AbstractNotificationTest
 {

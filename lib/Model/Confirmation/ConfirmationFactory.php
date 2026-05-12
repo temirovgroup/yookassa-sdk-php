@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Confirmation;
+namespace temirovgroup\Model\Confirmation;
 
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\ConfirmationType;
 
 /**
  * Class ConfirmationFactory

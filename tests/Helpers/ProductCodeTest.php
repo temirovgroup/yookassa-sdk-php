@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Helpers;
 
-use YooKassa\Helpers\ProductCode;
+use temirovgroup\Helpers\ProductCode;
 
 class ProductCodeTest extends \PHPUnit_Framework_TestCase
 {

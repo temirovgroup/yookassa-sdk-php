@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace temirovgroup\Model\PaymentMethod;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatData;
-use YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
+use temirovgroup\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через Сбербанк Бизнес Онлайн

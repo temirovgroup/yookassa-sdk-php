@@ -3,13 +3,13 @@
 namespace Tests\YooKassa\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequest;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Request\Payments\Payment\CreateCaptureRequest;
+use temirovgroup\Request\Payments\Payment\CreateCaptureRequestBuilder;
 
 class CreateCaptureRequestTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\AuthorizeException;
+use temirovgroup\Common\Exceptions\AuthorizeException;
 
 class AuthorizeExceptionTest extends ApiExceptionTest
 {

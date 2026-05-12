@@ -5,20 +5,20 @@ namespace Tests\YooKassa\Request\Payments;
 use Exception;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Recipient;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Payment;
+use temirovgroup\Model\PaymentData\PaymentDataQiwi;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Receipt\PaymentMode;
+use temirovgroup\Model\Receipt\PaymentSubject;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\Recipient;
+use temirovgroup\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestBuilderTest extends TestCase
 {

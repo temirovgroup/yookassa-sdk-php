@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\ConfirmationAttributes;
+namespace temirovgroup\Model\ConfirmationAttributes;
 
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\ConfirmationType;
 
 /**
  * Сценарий при котором необходимо ожидать пока пользователь самостоятельно подтвердит платеж. Например,

@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataGooglePay;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\PaymentDataGooglePay;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataGooglePayTest extends AbstractPaymentDataGooglePayTest
 {

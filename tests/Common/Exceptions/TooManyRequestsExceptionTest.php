@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\TooManyRequestsException;
+use temirovgroup\Common\Exceptions\TooManyRequestsException;
 
 class TooManyRequestsExceptionTest extends AbstractApiRequestExceptionTest
 {

@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace temirovgroup\Client;
 
 
-use YooKassa\Client;
+use temirovgroup\Client;
 
 /**
  * Класс для создания заголовка User-Agent в запросах к API

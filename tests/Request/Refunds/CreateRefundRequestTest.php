@@ -3,14 +3,14 @@
 namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Request\Refunds\CreateRefundRequest;
-use YooKassa\Request\Refunds\CreateRefundRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\RefundDealData;
+use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Request\Refunds\CreateRefundRequest;
+use temirovgroup\Request\Refunds\CreateRefundRequestBuilder;
 
 class CreateRefundRequestTest extends TestCase
 {

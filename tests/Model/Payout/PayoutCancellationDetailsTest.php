@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\CancellationDetails;
-use YooKassa\Model\CancellationDetailsPartyCode;
-use YooKassa\Model\CancellationDetailsReasonCode;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
+use temirovgroup\Model\CancellationDetails;
+use temirovgroup\Model\CancellationDetailsPartyCode;
+use temirovgroup\Model\CancellationDetailsReasonCode;
+use temirovgroup\Model\Payout\PayoutCancellationDetails;
 
 class PayoutCancellationDetailsTest extends TestCase
 {

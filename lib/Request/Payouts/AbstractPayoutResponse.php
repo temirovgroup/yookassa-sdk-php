@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace temirovgroup\Request\Payouts;
 
-use YooKassa\Model\Payout;
-use YooKassa\Model\PayoutInterface;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\PayoutInterface;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о выплате

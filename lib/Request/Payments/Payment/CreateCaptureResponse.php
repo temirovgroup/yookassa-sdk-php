@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace temirovgroup\Request\Payments\Payment;
 
-use YooKassa\Request\Payments\AbstractPaymentResponse;
+use temirovgroup\Request\Payments\AbstractPaymentResponse;
 
 /**
  * Класс объекта ответа от API на запрос подтверждения платежа

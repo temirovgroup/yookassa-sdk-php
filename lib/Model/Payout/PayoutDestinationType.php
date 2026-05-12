@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Payout;
+namespace temirovgroup\Model\Payout;
 
-use YooKassa\Common\AbstractEnum;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Common\AbstractEnum;
+use temirovgroup\Model\PaymentMethodType;
 
 /**
  * PayoutDestinationType - Виды выплат

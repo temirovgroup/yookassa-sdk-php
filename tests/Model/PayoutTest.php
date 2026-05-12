@@ -3,18 +3,18 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\Payout\PayoutDestinationFactory;
-use YooKassa\Model\Payout\PayoutDestinationYooMoney;
-use YooKassa\Model\PayoutStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\Payout\PayoutCancellationDetails;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
+use temirovgroup\Model\Deal\PayoutDealInfo;
+use temirovgroup\Model\Payout\PayoutDestinationFactory;
+use temirovgroup\Model\Payout\PayoutDestinationYooMoney;
+use temirovgroup\Model\PayoutStatus;
 
 class PayoutTest extends TestCase
 {

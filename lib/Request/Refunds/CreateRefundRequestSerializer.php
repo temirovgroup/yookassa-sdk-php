@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\SourceInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\SourceInterface;
 
 /**
  * Класс сериалайзера запросов к API на создание нового возврата средств

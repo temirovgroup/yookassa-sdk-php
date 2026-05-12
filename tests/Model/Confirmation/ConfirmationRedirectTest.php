@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\Confirmation;
 
-use YooKassa\Model\Confirmation\ConfirmationRedirect;
-use YooKassa\Model\ConfirmationType;
+use temirovgroup\Model\Confirmation\ConfirmationRedirect;
+use temirovgroup\Model\ConfirmationType;
 
 class ConfirmationRedirectTest extends AbstractConfirmationTest
 {

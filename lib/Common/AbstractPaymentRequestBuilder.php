@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptItemInterface;
-use YooKassa\Model\Transfer;
-use YooKassa\Model\TransferInterface;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt;
+use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use temirovgroup\Model\ReceiptCustomer;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\ReceiptItemInterface;
+use temirovgroup\Model\Transfer;
+use temirovgroup\Model\TransferInterface;
 
 /**
  * Базовый класс объекта платежного запроса, передаваемого в методы клиента API

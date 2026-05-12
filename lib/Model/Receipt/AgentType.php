@@ -1,10 +1,10 @@
 <?php
 
 
-namespace YooKassa\Model\Receipt;
+namespace temirovgroup\Model\Receipt;
 
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 class AgentType extends AbstractEnum
 {

@@ -3,13 +3,13 @@
 namespace Tests\YooKassa\Request\Payouts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\PayoutStatus;
-use YooKassa\Request\Payouts\PayoutResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
+use temirovgroup\Model\PayoutStatus;
+use temirovgroup\Request\Payouts\PayoutResponse;
 
 abstract class AbstractPayoutResponseTest extends TestCase
 {

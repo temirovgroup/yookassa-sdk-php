@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Common;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\AbstractObject;
+use temirovgroup\Common\AbstractObject;
 
 class AbstractObjectTest extends TestCase
 {

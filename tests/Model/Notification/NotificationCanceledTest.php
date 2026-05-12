@@ -3,17 +3,17 @@
 
 namespace Tests\YooKassa\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationCanceled;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptRegistrationStatus;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Notification\NotificationCanceled;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\PaymentInterface;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptRegistrationStatus;
 
 class NotificationCanceledTest extends \PHPUnit_Framework_TestCase
 {

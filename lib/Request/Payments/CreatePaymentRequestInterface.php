@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace temirovgroup\Request\Payments;
 
-use YooKassa\Model\Airline;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\RecipientInterface;
-use YooKassa\Model\TransferInterface;
+use temirovgroup\Model\Airline;
+use temirovgroup\Model\AirlineInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use temirovgroup\Model\Deal\PaymentDealInfo;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Model\ReceiptInterface;
+use temirovgroup\Model\RecipientInterface;
+use temirovgroup\Model\TransferInterface;
 
 /**
  * Interface CreatePaymentRequestInterface

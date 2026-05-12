@@ -2,8 +2,8 @@
 
 namespace Tests\YooKassa\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataWechat;
-use YooKassa\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentData\PaymentDataWechat;
+use temirovgroup\Model\PaymentMethodType;
 
 class PaymentDataWechatTest extends AbstractPaymentDataTest
 {

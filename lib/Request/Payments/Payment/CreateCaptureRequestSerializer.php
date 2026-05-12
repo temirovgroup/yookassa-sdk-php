@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace temirovgroup\Request\Payments\Payment;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\TransferInterface;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\ReceiptItem;
+use temirovgroup\Model\TransferInterface;
 
 /**
  * Класс объекта осуществляющего сериализацию запроса к API на подтверждение заказа

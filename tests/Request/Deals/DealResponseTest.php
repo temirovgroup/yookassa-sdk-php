@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Request\Deals;
 
-use YooKassa\Request\Deals\DealResponse;
+use temirovgroup\Request\Deals\DealResponse;
 
 class DealResponseTest extends AbstractDealResponseTest
 {

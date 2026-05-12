@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace temirovgroup\Helpers;
 
 /**
  * Класс объекта, кастящегося в строку, используется только в тестах

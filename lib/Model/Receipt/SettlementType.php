@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Receipt;
+namespace temirovgroup\Model\Receipt;
 
 
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 class SettlementType extends AbstractEnum
 {

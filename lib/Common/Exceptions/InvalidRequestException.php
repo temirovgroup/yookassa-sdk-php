@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace temirovgroup\Common\Exceptions;
 
-use YooKassa\Common\AbstractRequest;
+use temirovgroup\Common\AbstractRequest;
 
 class InvalidRequestException extends \RuntimeException
 {

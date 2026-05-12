@@ -2,11 +2,11 @@
 
 namespace Tests\YooKassa\Request\Receipts;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Request\Receipts\RefundReceiptResponse;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Airline;
+use temirovgroup\Request\Receipts\RefundReceiptResponse;
 
 class RefundReceiptResponseTest extends AbstractReceiptResponseTest
 {

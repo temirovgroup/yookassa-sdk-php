@@ -3,16 +3,16 @@
 namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Source;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
-use YooKassa\Request\Refunds\CreateRefundRequest;
-use YooKassa\Request\Refunds\CreateRefundRequestSerializer;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Receipt\PaymentMode;
+use temirovgroup\Model\Receipt\PaymentSubject;
+use temirovgroup\Model\Source;
+use temirovgroup\Model\Deal\RefundDealData;
+use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
+use temirovgroup\Request\Refunds\CreateRefundRequest;
+use temirovgroup\Request\Refunds\CreateRefundRequestSerializer;
 
 class CreateRefundRequestSerializerTest extends TestCase
 {

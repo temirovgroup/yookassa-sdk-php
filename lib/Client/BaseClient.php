@@ -23,27 +23,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace temirovgroup\Client;
 
 use Exception;
 use Psr\Log\LoggerInterface;
-use YooKassa\Common\Exceptions\ApiConnectionException;
-use YooKassa\Common\Exceptions\ApiException;
-use YooKassa\Common\Exceptions\AuthorizeException;
-use YooKassa\Common\Exceptions\BadApiRequestException;
-use YooKassa\Common\Exceptions\ExtensionNotFoundException;
-use YooKassa\Common\Exceptions\ForbiddenException;
-use YooKassa\Common\Exceptions\InternalServerError;
-use YooKassa\Common\Exceptions\JsonException;
-use YooKassa\Common\Exceptions\NotFoundException;
-use YooKassa\Common\Exceptions\ResponseProcessingException;
-use YooKassa\Common\Exceptions\TooManyRequestsException;
-use YooKassa\Common\Exceptions\UnauthorizedException;
-use YooKassa\Common\LoggerWrapper;
-use YooKassa\Common\ResponseObject;
-use YooKassa\Helpers\Config\ConfigurationLoader;
-use YooKassa\Helpers\Config\ConfigurationLoaderInterface;
-use YooKassa\Helpers\SecurityHelper;
+use temirovgroup\Common\Exceptions\ApiConnectionException;
+use temirovgroup\Common\Exceptions\ApiException;
+use temirovgroup\Common\Exceptions\AuthorizeException;
+use temirovgroup\Common\Exceptions\BadApiRequestException;
+use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
+use temirovgroup\Common\Exceptions\ForbiddenException;
+use temirovgroup\Common\Exceptions\InternalServerError;
+use temirovgroup\Common\Exceptions\JsonException;
+use temirovgroup\Common\Exceptions\NotFoundException;
+use temirovgroup\Common\Exceptions\ResponseProcessingException;
+use temirovgroup\Common\Exceptions\TooManyRequestsException;
+use temirovgroup\Common\Exceptions\UnauthorizedException;
+use temirovgroup\Common\LoggerWrapper;
+use temirovgroup\Common\ResponseObject;
+use temirovgroup\Helpers\Config\ConfigurationLoader;
+use temirovgroup\Helpers\Config\ConfigurationLoaderInterface;
+use temirovgroup\Helpers\SecurityHelper;
 
 class BaseClient
 {

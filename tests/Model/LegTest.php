@@ -5,7 +5,7 @@ namespace Tests\YooKassa\Model;
 
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\Leg;
+use temirovgroup\Model\Leg;
 
 class LegTest extends TestCase
 {

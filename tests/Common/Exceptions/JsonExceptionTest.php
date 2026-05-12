@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\JsonException;
+use temirovgroup\Common\Exceptions\JsonException;
 
 class JsonExceptionTest extends TestCase
 {

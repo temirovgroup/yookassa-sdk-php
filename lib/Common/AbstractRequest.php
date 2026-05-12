@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
 /**
  * Базовый класс объекта запроса, передаваемого в методы клиента API

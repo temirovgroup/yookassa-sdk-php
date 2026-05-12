@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace temirovgroup\Common;
 
 use Psr\Log\InvalidArgumentException;
 use Psr\Log\LoggerInterface;

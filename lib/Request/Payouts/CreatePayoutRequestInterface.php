@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace temirovgroup\Request\Payouts;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\DealInterface;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\MonetaryAmount;
+use temirovgroup\Model\Deal\PayoutDealInfo;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Interface CreatePayoutRequestInterface

@@ -3,14 +3,14 @@
 namespace Tests\YooKassa\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Request\Receipts\ReceiptResponseInterface;
-use YooKassa\Request\Receipts\ReceiptResponseItem;
-use YooKassa\Request\Receipts\ReceiptResponseItemInterface;
+use temirovgroup\Helpers\ProductCode;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Airline;
+use temirovgroup\Model\Receipt\SettlementType;
+use temirovgroup\Model\ReceiptType;
+use temirovgroup\Request\Receipts\ReceiptResponseInterface;
+use temirovgroup\Request\Receipts\ReceiptResponseItem;
+use temirovgroup\Request\Receipts\ReceiptResponseItemInterface;
 
 abstract class AbstractReceiptResponseTest extends TestCase
 {

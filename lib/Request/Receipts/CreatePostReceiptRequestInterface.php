@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace temirovgroup\Request\Receipts;
 
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptCustomerInterface;
-use YooKassa\Model\ReceiptItemInterface;
-use YooKassa\Model\SettlementInterface;
-use YooKassa\Model\SupplierInterface;
+use temirovgroup\Model\ReceiptCustomer;
+use temirovgroup\Model\ReceiptCustomerInterface;
+use temirovgroup\Model\ReceiptItemInterface;
+use temirovgroup\Model\SettlementInterface;
+use temirovgroup\Model\SupplierInterface;
 
 /**
  * Interface CreateReceiptRequestInterface

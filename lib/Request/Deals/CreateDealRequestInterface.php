@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
-use YooKassa\Model\Metadata;
+use temirovgroup\Model\Metadata;
 
 /**
  * Interface DealInterface

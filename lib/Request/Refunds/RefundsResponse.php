@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace temirovgroup\Request\Refunds;
 
 use Exception;
-use YooKassa\Model\RefundInterface;
+use temirovgroup\Model\RefundInterface;
 
 /**
  * Класс объекта ответа от API со списком возвратов магазина

@@ -3,16 +3,16 @@
 namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CancellationDetailsPartyCode;
-use YooKassa\Model\CancellationDetailsReasonCode;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Request\Payments\PaymentsResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\CancellationDetailsPartyCode;
+use temirovgroup\Model\CancellationDetailsReasonCode;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\PaymentInterface;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Request\Payments\PaymentsResponse;
 
 class PaymentsResponseTest extends TestCase
 {

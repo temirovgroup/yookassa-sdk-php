@@ -3,10 +3,10 @@
 namespace Tests\YooKassa\Request\Webhook;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\Webhook\Webhook;
-use YooKassa\Request\Webhook\WebhookListResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\Webhook\Webhook;
+use temirovgroup\Request\Webhook\WebhookListResponse;
 
 class WebhookListResponseTest extends TestCase
 {

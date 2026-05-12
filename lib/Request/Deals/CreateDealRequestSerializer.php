@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace temirovgroup\Request\Deals;
 
-use YooKassa\Common\AbstractRequest;
+use temirovgroup\Common\AbstractRequest;
 
 /**
  * Класс сериалайзера объекта запроса к API на создание сделки

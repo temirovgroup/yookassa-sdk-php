@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Payout\AbstractPayoutDestination;
 
 abstract class AbstractPayoutDestinationTest extends TestCase
 {

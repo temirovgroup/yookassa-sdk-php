@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\InternalServerError;
+use temirovgroup\Common\Exceptions\InternalServerError;
 
 class InternalServerErrorTest extends AbstractApiRequestExceptionTest
 {

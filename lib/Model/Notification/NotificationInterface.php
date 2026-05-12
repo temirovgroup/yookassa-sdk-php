@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace temirovgroup\Model\Notification;
 
 
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\RefundInterface;
+use temirovgroup\Model\PaymentInterface;
+use temirovgroup\Model\RefundInterface;
 
 interface NotificationInterface
 {

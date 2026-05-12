@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\ApiException;
+use temirovgroup\Common\Exceptions\ApiException;
 
 class ApiExceptionTest extends TestCase
 {

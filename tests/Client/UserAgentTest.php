@@ -5,7 +5,7 @@ namespace Tests\YooKassa\Client;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 use ReflectionException;
-use YooKassa\Client\UserAgent;
+use temirovgroup\Client\UserAgent;
 
 
 class UserAgentTest extends TestCase

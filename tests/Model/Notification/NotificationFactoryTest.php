@@ -3,28 +3,28 @@
 namespace Tests\YooKassa\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Notification\AbstractNotification;
-use YooKassa\Model\Notification\NotificationFactory;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\PayoutStatus;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Deals\DealResponse;
-use YooKassa\Request\Payments\PaymentResponse;
-use YooKassa\Request\Payouts\PayoutResponse;
-use YooKassa\Request\Refunds\RefundResponse;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ConfirmationType;
+use temirovgroup\Model\CurrencyCode;
+use temirovgroup\Model\Deal\DealStatus;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\Notification\AbstractNotification;
+use temirovgroup\Model\Notification\NotificationFactory;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\PaymentMethodType;
+use temirovgroup\Model\PaymentStatus;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
+use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
+use temirovgroup\Model\PayoutStatus;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\RefundStatus;
+use temirovgroup\Request\Deals\DealResponse;
+use temirovgroup\Request\Payments\PaymentResponse;
+use temirovgroup\Request\Payouts\PayoutResponse;
+use temirovgroup\Request\Refunds\RefundResponse;
 
 class NotificationFactoryTest extends TestCase
 {

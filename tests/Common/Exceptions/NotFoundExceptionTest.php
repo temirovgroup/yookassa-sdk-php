@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\NotFoundException;
+use temirovgroup\Common\Exceptions\NotFoundException;
 
 class NotFoundExceptionTest extends AbstractApiRequestExceptionTest
 {

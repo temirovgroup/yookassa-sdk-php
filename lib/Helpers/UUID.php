@@ -1,6 +1,6 @@
 <?php
 
-namespace YooKassa\Helpers;
+namespace temirovgroup\Helpers;
 
 
 class UUID

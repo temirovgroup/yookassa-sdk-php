@@ -2,11 +2,11 @@
 
 namespace Tests\YooKassa\Request\Receipts;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Receipts\ReceiptsRequest;
-use YooKassa\Request\Receipts\ReceiptsRequestBuilder;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\ReceiptRegistrationStatus;
+use temirovgroup\Model\RefundStatus;
+use temirovgroup\Request\Receipts\ReceiptsRequest;
+use temirovgroup\Request\Receipts\ReceiptsRequestBuilder;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptsRequestBuilderTest extends TestCase

@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData\B2b\Sberbank;
+namespace temirovgroup\Model\PaymentData\B2b\Sberbank;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
+use temirovgroup\Common\AbstractObject;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
+use temirovgroup\Helpers\TypeCast;
+use temirovgroup\Model\AmountInterface;
+use temirovgroup\Model\MonetaryAmount;
 
 /**
  * Данные об НДС

@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Helpers\Config;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Config\ConfigurationLoader;
+use temirovgroup\Helpers\Config\ConfigurationLoader;
 
 class ConfigurationLoaderTest extends TestCase
 {

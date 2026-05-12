@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
 
 class PayerBankDetailsTest extends TestCase
 {

@@ -3,13 +3,13 @@
 namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealBalanceAmount;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\SafeDeal;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\Deal\DealBalanceAmount;
+use temirovgroup\Model\Deal\DealStatus;
+use temirovgroup\Model\Deal\DealType;
+use temirovgroup\Model\Deal\FeeMoment;
+use temirovgroup\Model\Metadata;
+use temirovgroup\Model\SafeDeal;
 
 class SafeDealTest extends TestCase
 {

@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace temirovgroup\Model\Notification;
 
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\PayoutInterface;
-use YooKassa\Request\Payouts\PayoutResponse;
+use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
+use temirovgroup\Model\NotificationEventType;
+use temirovgroup\Model\NotificationType;
+use temirovgroup\Model\Payout;
+use temirovgroup\Model\PayoutInterface;
+use temirovgroup\Request\Payouts\PayoutResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса выплаты на "succeeded"

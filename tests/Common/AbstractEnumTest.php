@@ -3,7 +3,7 @@
 namespace Tests\YooKassa\Common;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\AbstractEnum;
+use temirovgroup\Common\AbstractEnum;
 
 class AbstractEnumTest extends TestCase
 {

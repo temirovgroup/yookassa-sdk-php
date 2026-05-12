@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace temirovgroup\Request\Payouts;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение выплаты

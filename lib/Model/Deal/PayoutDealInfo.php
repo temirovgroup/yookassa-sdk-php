@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Deal;
+namespace temirovgroup\Model\Deal;
 
-use YooKassa\Common\AbstractObject;
+use temirovgroup\Common\AbstractObject;
 
 /**
  * Class PayoutDealInfo

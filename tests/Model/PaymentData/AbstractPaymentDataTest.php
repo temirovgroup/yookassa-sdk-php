@@ -3,8 +3,8 @@
 namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
+use temirovgroup\Helpers\Random;
+use temirovgroup\Model\PaymentData\AbstractPaymentData;
 
 abstract class AbstractPaymentDataTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 namespace Tests\YooKassa\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\ForbiddenException;
+use temirovgroup\Common\Exceptions\ForbiddenException;
 
 class ForbiddenExceptionTest extends AbstractApiRequestExceptionTest
 {
