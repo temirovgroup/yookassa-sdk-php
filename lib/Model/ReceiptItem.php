@@ -60,6 +60,9 @@ use temirovgroup\Model\Receipt\ReceiptItemAmount;
  */
 class ReceiptItem extends AbstractObject implements ReceiptItemInterface
 {
+	private const MIN_VAT_CODE = 1;
+	private const MAX_VAT_CODE = 12;
+
     /**
      * @var string Наименование товара
      */
@@ -261,7 +264,7 @@ class ReceiptItem extends AbstractObject implements ReceiptItemInterface
             throw new InvalidPropertyValueTypeException(
                 'Invalid vatId value type in ReceiptItem', 0, 'ReceiptItem.vatId', $value
             );
-        } elseif ($value < 1 || $value > 12) {
+        } elseif ($value < self::MIN_VAT_CODE || $value > self::MAX_VAT_CODE) {
             throw new InvalidPropertyValueException(
                 'Invalid vatId value in ReceiptItem', 0, 'ReceiptItem.vatId', $value
             );
